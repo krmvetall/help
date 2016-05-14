@@ -4,8 +4,9 @@ git status
 git add . [--all]
 git commit -m "имя"
 
-В репозитарий
+Подключится к репозиторию
 git remote add origin https://github.com/krmvetall/test_site.git
+Залить в репозиторий
 git push -u origin master
 
 К себе
@@ -15,3 +16,12 @@ git clone https://github.com/jquery/jquery.git
 git branch имя
 git checkout имя
 git branch
+
+Отображаем изменения
+git log [--graph --all --decorate --oneline]
+
+Сливаем две ветки
+git marge имя имя добавляемой ветки
+
+Список конфликтов
+git commit
