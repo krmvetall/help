@@ -11,5 +11,7 @@ git push -u origin master
 К себе
 git clone https://github.com/jquery/jquery.git
 
+Новая ветка
 git branch имя
 git checkout имя
+git branch
