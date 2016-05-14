@@ -1,0 +1,15 @@
+cd
+git init
+git status
+git add . [--all]
+git commit -m "имя"
+
+В репозитарий
+git remote add origin https://github.com/krmvetall/test_site.git
+git push -u origin master
+
+К себе
+git clone https://github.com/jquery/jquery.git
+
+git branch имя
+git checkout имя
